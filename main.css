@@ -175,3 +175,64 @@ footer ul li {
     transform: scale(1.1);
   transition: all 0.5s ease;
 }
+
+
+.section-works {
+    max-width: 800px;
+    margin:auto;
+    text-align: center;
+    padding: 80px;
+
+   
+  }
+  
+  .card {
+    display: flex;
+    flex-direction:column;
+
+  }
+  
+  .card div img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgb(193, 192, 192);
+    
+  }
+  .card div img:hover{
+    box-shadow: 5px 5px 5px 5px rgb(230, 230, 230);
+    transition: 0.8s;
+  }
+  
+  .text-works {
+    font-size: 2em;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #6f63f6;
+  
+  }
+  
+  .container-detail {
+    text-align: center;
+   
+  }
+  
+  .container-detail p {
+    margin-top:5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .container-detail h2 {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .link-portafolio{
+   
+    text-decoration: none;
+  }
