@@ -188,7 +188,9 @@ footer ul li {
   
   .card {
     display: flex;
-    flex-direction:column;
+    justify-content:center;
+    padding: 20px;
+   
 
   }
   
@@ -220,12 +222,12 @@ footer ul li {
   
   .container-detail p {
     margin-top:5px;
-    padding: 10px;
+    padding-left:30px;
     font-size: 20px;
   }
   
   .container-detail h2 {
-    color: #fff;
+    color: #f22dca;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 10px;
